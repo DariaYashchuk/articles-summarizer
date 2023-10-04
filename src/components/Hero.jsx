@@ -5,6 +5,10 @@ const Hero = () => {
         <p>Summarize Articles with</p>
         <p className="orange_gradient ">OpenAI GPT-4</p>
       </h1>
+      <h2 className="desc">
+        An article summarizer that transforms lengthy articles into clear and
+        brief summaries
+      </h2>
     </div>
   );
 };
