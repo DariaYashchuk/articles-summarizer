@@ -1,7 +1,8 @@
 import Hero from "./components/Hero";
-import Sumarry from "./components/Sumarry";
+import Summary from "./components/Sumarry";
 import Header from "./components/Header";
 import "./App.css";
+
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <div className="app">
         <Header />
         <Hero />
-        <Sumarry />
+        <Summary />
       </div>
     </main>
   );
